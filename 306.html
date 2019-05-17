@@ -47,8 +47,55 @@
       border: 1px solid rgba(35, 0, 255, 0.38);
       background-color:rgba(0, 163, 255, 0.38);
     }
+/*下导航栏*/
+.zhiye {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.zhiye {
+    position: relative;
+    display: inline-block;
+}
+
+.zhi-ye {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.zhi-ye a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.zhi-ye a:hover {background-color: #f1f1f1}
+
+.zhiye:hover .zhi-ye {
+    display: block;
+}
+
+.zhiye:hover .zhiyE {
+    background-color: #3e8e41;
+}
   </style>
 </head>
+<div class="zhiye">
+  <button class="zhiyE">主页</button>
+  <div class="zhi-ye">
+    <a href="https://lee-tiny-co7.github.io/xcoe17.io/306.html">作品集</a>
+    <a href="https://lee-tiny-co7.github.io/xcoe17.io/309.html">致敬</a>
+    <a href=""></a>
+  </div>
+</div>
   <body background="github.jpg" style="color:#727173;"><div class="GitHub">
     <ul>
       <p id="CSS"><a class="hub" href="https://github.com/Lee-tiny-Co7">GitHub主页</a></p>
